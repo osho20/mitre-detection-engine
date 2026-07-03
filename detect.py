@@ -20,3 +20,12 @@ def check_dcsync_acl_change(filename):
                 print("MITRE ATT&CK: T1003.006 (OS Credential Dumping: DCSync)")
                 print("-" * 50)
 check_dcsync_acl_change('DACL_DCSync_Right_Powerview_ Add-DomainObjectAcl.evtx')
+def check_rdp_lateral_movement(filename):
+    with evtx.Evtx(filename) as log:
+        for record in log.records():
+            xml = record.xml()
+            if "<EventID" in xml and ">104<" in xml:
+                print("[ALERT] T1021.001 - RDP Lateral Movement Detected")
+                print("MITRE ATT&CK: T1021.001 (Remote Services: RDP)")
+                print("-" * 50)
+check_rdp_lateral_movement('DFIR_RDP_Client_TimeZone_RdpCoreTs_104_example.evtx')
