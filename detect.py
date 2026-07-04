@@ -29,3 +29,12 @@ def check_rdp_lateral_movement(filename):
                 print("MITRE ATT&CK: T1021.001 (Remote Services: RDP)")
                 print("-" * 50)
 check_rdp_lateral_movement('DFIR_RDP_Client_TimeZone_RdpCoreTs_104_example.evtx')
+def check_test_signing_enabled(filename):
+    with evtx.Evtx(filename) as log:
+        for record in log.records():
+            xml = record.xml()
+            if "<EventID" in xml and ">4826<" in xml:
+                print("[ALERT] T1553.006 - Test Signing/Kernel Debug Enabled")
+                print("MITRE ATT&CK: T1553.006 (Subvert Trust Controls)")
+                print("-" * 50)
+check_test_signing_enabled('DE_KernelDebug_and_TestSigning_ON_Security_4826.evtx')

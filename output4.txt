@@ -1,0 +1,204 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-10 01:01:24.417023+00:00"></TimeCreated>
+<EventRecordID>382006</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1843</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-09 21:17:15.873127+00:00"></TimeCreated>
+<EventRecordID>392357</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1843</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-09 21:22:56.427647+00:00"></TimeCreated>
+<EventRecordID>394186</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1843</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-10 06:09:32.459951+00:00"></TimeCreated>
+<EventRecordID>395852</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1843</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-09 22:17:17.529760+00:00"></TimeCreated>
+<EventRecordID>397543</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1843</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"><System><Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}"></Provider>
+<EventID Qualifiers="">4826</EventID>
+<Version>0</Version>
+<Level>0</Level>
+<Task>13573</Task>
+<Opcode>0</Opcode>
+<Keywords>0x8020000000000000</Keywords>
+<TimeCreated SystemTime="2020-03-09 22:54:06.108465+00:00"></TimeCreated>
+<EventRecordID>403082</EventRecordID>
+<Correlation ActivityID="" RelatedActivityID=""></Correlation>
+<Execution ProcessID="4" ThreadID="32"></Execution>
+<Channel>Security</Channel>
+<Computer>MSEDGEWIN10</Computer>
+<Security UserID=""></Security>
+</System>
+<EventData><Data Name="SubjectUserSid">S-1-5-18</Data>
+<Data Name="SubjectUserName">-</Data>
+<Data Name="SubjectDomainName">-</Data>
+<Data Name="SubjectLogonId">0x00000000000003e7</Data>
+<Data Name="LoadOptions">-</Data>
+<Data Name="AdvancedOptions">%%1843</Data>
+<Data Name="ConfigAccessPolicy">%%1846</Data>
+<Data Name="RemoteEventLogging">%%1843</Data>
+<Data Name="KernelDebug">%%1842</Data>
+<Data Name="VsmLaunchType">%%1848</Data>
+<Data Name="TestSigning">%%1842</Data>
+<Data Name="FlightSigning">%%1843</Data>
+<Data Name="DisableIntegrityChecks">%%1843</Data>
+<Data Name="HypervisorLoadOptions">-</Data>
+<Data Name="HypervisorLaunchType">%%1848</Data>
+<Data Name="HypervisorDebug">%%1843</Data>
+</EventData>
+</Event>
+
