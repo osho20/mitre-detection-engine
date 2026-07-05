@@ -38,3 +38,12 @@ def check_test_signing_enabled(filename):
                 print("MITRE ATT&CK: T1553.006 (Subvert Trust Controls)")
                 print("-" * 50)
 check_test_signing_enabled('DE_KernelDebug_and_TestSigning_ON_Security_4826.evtx')
+def check_named_pipe_discovery(filename):
+    with evtx.Evtx(filename) as log:
+        for record in log.records():
+            xml = record.xml()
+            if "<EventID" in xml and ">18<" in xml:
+                print("[ALERT] T1018 - Remote System Discovery via Named Pipes")
+                print("MITRE ATT&CK: T1018 (Remote System Discovery)")
+                print("-" * 50)
+check_named_pipe_discovery('Discovery_Remote_System_NamedPipes_Sysmon_18.evtx')
