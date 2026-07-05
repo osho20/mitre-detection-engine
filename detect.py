@@ -47,3 +47,12 @@ def check_named_pipe_discovery(filename):
                 print("MITRE ATT&CK: T1018 (Remote System Discovery)")
                 print("-" * 50)
 check_named_pipe_discovery('Discovery_Remote_System_NamedPipes_Sysmon_18.evtx')
+def check_wuauclt_lolbas(filename):
+    with evtx.Evtx(filename) as log:
+        for record in log.records():
+            xml = record.xml()
+            if "<EventID" in xml and ">7<" in xml and "wuauclt" in xml.lower():
+                print("[ALERT] T1218 - Wuauclt LOLBAS Execution Detected")
+                print("MITRE ATT&CK: T1218 (System Binary Proxy Execution)")
+                print("-" * 50)
+check_wuauclt_lolbas('evasion_execution_imageload_wuauclt_lolbas.evtx')
